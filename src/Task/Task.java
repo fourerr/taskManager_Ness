@@ -6,7 +6,9 @@ public class Task {
    private String description;
     private String execution_date;
     private Status status_task;
-    public Task(){}
+    public Task(){
+        this.status_task=Status.New;
+    }
     public Task(String description,String execution_date,Status status_task){
         this.description=description;
         this.execution_date=execution_date;
