@@ -14,7 +14,7 @@ public class Main {
      * @throws ParseException -can be error if parsing the execution date is failed
      */
     public static void main() throws ParseException {
-        /*נגדי
+        /*
           adding two tasks to list tasks
          */
         tasks.add(new Task("1","05/09/2022", Status.In_progress));
